@@ -39,4 +39,4 @@ jobs:
         uses: azure/CLI@v1
         with:
           inlineScript: |
-            az storage blob upload-batch --account-name staticstoragebk --auth-mode key -d '$web' -s ./app
+            az storage blob upload-batch --account-name staticstoragebk9 --auth-mode key -d '$web' -s ./app
